@@ -50,3 +50,4 @@ public class Teamservice {
    public List<Staff> NotProfileTrain(String profile){
 	   return dao.NotProfileTrain(profile);
    }
+}
