@@ -131,34 +131,3 @@ public class Teamdao {
 
 
 
-
-}
-
-//	public boolean insertPlayer(Staff staff) {
-//		Session session = sf.openSession();
-//		Transaction tr= session.beginTransaction();
-//		
-//		System.out.println(staff);
-//		session.save(staff);
-//		tr.commit();
-//		session.close();
-//		return true;
-//	}
-//		public Staff getPlayerByID(int age) {
-//			Session session = sf.openSession();
-//			Staff player = session.get(Staff.class, age);
-//			session.close();
-//			return player;
-//		}
-//
-//		public boolean deletePlayerByID(int age) {
-//			Session session = sf.openSession();
-//			Transaction tr = session.beginTransaction();
-//			Staff player = session.get(Staff.class, age);
-//			session.delete(player);
-//			tr.commit();
-//			session.close();
-//			return true;
-//		}
-//
-//	}
