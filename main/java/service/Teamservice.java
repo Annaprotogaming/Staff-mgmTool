@@ -50,24 +50,3 @@ public class Teamservice {
    public List<Staff> NotProfileTrain(String profile){
 	   return dao.NotProfileTrain(profile);
    }
-//    public string updateStaffById(Staff staff) {
-//	   return dao.updateStaffById(staff);
-//	   }
-
-//	public boolean insertPlayer(Staff team) {
-//		return dao.insertPlayer(team);
-//		
-//		
-//	}
-//	public Staff getPlayerByID(int age) {
-//		return dao.getPlayerByID(age);
-//	}
-//
-//	public boolean deletePlayerByID(int age) {
-//		return dao.deletePlayerByID(age);
-
-
-	}
-
-
-
