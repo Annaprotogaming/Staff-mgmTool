@@ -83,15 +83,5 @@ public class Teamcontroller {
            
            
            
-//	@GetMapping("player/{age}")
-//	Staff getPlayerByID(@PathVariable int age) {
-//		Staff player = tm.getPlayerByID(age);
-//		return player;
-//	}
-//
-//	@DeleteMapping("/delete/{age}")
-//	public boolean deletePlayerByID(@PathVariable int age) {
-//		boolean isDeleted = tm.deletePlayerByID(age);
-//		return isDeleted;
-	}
+
 
