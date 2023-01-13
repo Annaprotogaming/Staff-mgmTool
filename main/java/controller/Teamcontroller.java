@@ -29,12 +29,12 @@ public class Teamcontroller {
          Staff getStaffById(@PathVariable int staffid) {
 	      Staff faculty = tm.getStaffById(staffid);
 		    	return faculty;
-		    	}
+		}
 		    
 	       @PostMapping("/insert")
 	       public String insertstaff(@RequestBody Staff staff) {
-		   return tm.insertStaff(staff);		    	 }
-	    
+		   return tm.insertStaff(staff);		    	 
+	       }
 	      @GetMapping("/getbysalary")
 	      public List<Staff>getStaffBySalary(){
 	    	  return tm.getStaffBySalary();
@@ -73,7 +73,7 @@ public class Teamcontroller {
         	   return tm.NotProfileTrain(profile);
            }
            
-           
+}
            
            
            
