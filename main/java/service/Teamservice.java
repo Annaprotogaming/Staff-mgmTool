@@ -10,10 +10,10 @@ import entity.Staff;
 
 @Service
 public class Teamservice {
-    @Autowired
+    @Autowired   //glueTogether
 	Teamdao dao;
     
-	public List<Staff> getAllRecords() {
+	public List<Staff> getAllRecords() { 
 	List<Staff> staff= dao.getAllRecords();
 	return staff;	
 	}
